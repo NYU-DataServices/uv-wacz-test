@@ -1,1 +1,10 @@
 .DS_Store
+
+# crawls/collections/*/archive
+# crawls/collections/*/indexes
+# crawls/collections/*/logs
+# crawls/collections/*/pages
+# crawls/collections/*/warc-cdx
+
+crawls/collections/*/*
+!crawls/collections/*/*.wacz
