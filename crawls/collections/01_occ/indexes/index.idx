@@ -1,0 +1,6 @@
+!meta 0 {"format":"cdxj-gzip-1.0","filename":"index.cdx.gz"}
+com,fontawesome,use)/releases/v5.15.4/css/all.css 20250409174845 {"offset":0,"length":16913,"digest":"sha256:6750b0b70be2ff7e7da8c26768fbb7388324c6c7b53c49dacbfea451d7f0e6c5","filename":"index.cdx.gz"}
+edu,nyu,dlib,image1:8183)/iiif/2/photo%2ftamwag_tam630_cuid34927%2ftamwag_tam630_cuid34927_n000001_d.jp2/full/186,/0/default.jpg 20250409175335 {"offset":16913,"length":14639,"digest":"sha256:be1f94839d6256bdd371fc9b87d6b23819bd9eee6368a0b625c536bbd3c3610d","filename":"index.cdx.gz"}
+edu,nyu,hosting,specialcollections)/exhibitions/occupy/declarations/3/ 20250409175440 {"offset":31552,"length":16198,"digest":"sha256:9b7f11213bc168fd8dc43be93f1b4b09cbf2aecc5daeac951d7f99da6b5b0f35","filename":"index.cdx.gz"}
+edu,nyu,hosting,specialcollections)/exhibitions/occupy/img/derivatives/iiif/images/ows043/full/250,/0/default.jpg 20250409174846 {"offset":47750,"length":15011,"digest":"sha256:ee45180a0b18e89ec05d076380da2d2c6edbdc62c47326a7bdccb8dde02b85db","filename":"index.cdx.gz"}
+urn:pageinfo:https://specialcollections.hosting.nyu.edu/exhibitions/occupy/items/OWS055/ 20250409175232 {"offset":62761,"length":3459,"digest":"sha256:2b4c89f0b076e04f63a80f9b452d45284fc30a5c3e17ffc2e18192e62f26cfd8","filename":"index.cdx.gz"}
