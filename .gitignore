@@ -8,6 +8,7 @@
 
 crawls/collections/*/*
 !crawls/collections/*/*.wacz
+!crawls/collections/*/.gitkeep
 
 # too large
 crawls/collections/06_dap/06_dap.wacz
