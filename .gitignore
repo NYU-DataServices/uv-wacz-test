@@ -1,0 +1,4 @@
+.DS_Store
+
+crawls/collections/*/*
+!crawls/collections/*/.gitkeep
