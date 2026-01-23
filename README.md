@@ -16,7 +16,7 @@ Results are stored here* under `/crawls/collections`  for demo/test use in Ultra
 ## Instructions
 
 
-1. **CRAWL:** Run a crawl with the following command, replacing MY_URL and MY_ID with your values:
+1. **CRAWL:** Run a crawl with the following command, replacing `MY_URL` and `MY_ID` with your values. `MY_URL` should start with `http://` or `https://`; `MY_ID` can be whatever you want but should not include spaces or special characters.
     ``` sh
     sh crawl.sh MY_URL MY_ID
     ```
