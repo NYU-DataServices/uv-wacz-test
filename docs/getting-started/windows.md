@@ -23,4 +23,8 @@
 1. Download the browsertrix container using the command `docker pull webrecorder/browsertrix-crawler`
 2. Run the crawl script (which will use the browsertrix container) by running the command `sh crawl.sh MY_URL` but replace `MY_URL` with the URL of the site you want to crawl (starting with `http://` or `https://`).
 
+## 6. Check results
+1. Look for the result in the `/crawls/collections` folder within the `uv-wacz-test`. You should see a folder named like the URL and, within it find a bunch of files including a `.wacz` file.
+2. Go to https://replayweb.page/ and upload the `.wacz` file to test and QA the result.
+
 
