@@ -17,14 +17,15 @@
 
 ## 4. Access the Code using GitBash
 1. Find and open the GitBash app on your computer (It should have been installed in Step 1).
-2. Move into the code repository you extracted from the ZIP file using the command `cd ~/Desktop/uv-wacz-test`. (NOTE: It's also helpful to open that folder in another window so you can see the files/folders as you work.)
+2. Move into the code repository you extracted from the ZIP file using the command `cd ~/Desktop/uv-wacz-test`
+    (NOTE: It's also helpful to open that folder in another window so you can see the files/folders as you work.)
 
 ## 5. Use the Browsertrix Crawler
 1. Download the browsertrix container using the command `docker pull webrecorder/browsertrix-crawler`
 2. Run the crawl script (which will use the browsertrix container) by running the command `sh crawl.sh MY_URL` but replace `MY_URL` with the URL of the site you want to crawl (starting with `http://` or `https://`).
 
 ## 6. Check results
-1. Look for the result in the `/crawls/collections` folder within the `uv-wacz-test`. You should see a folder named like the URL and, within it find a bunch of files including a `.wacz` file.
-2. Go to https://replayweb.page/ and upload the `.wacz` file to test and QA the result.
+1. Look for the result in the `/crawls/collections` folder within `uv-wacz-test`. You should see a folder named like the URL and, within it, find a bunch of files including a `MY_URL.wacz` file.
+2. Go to https://replayweb.page/ in your browser and upload the `MY_URL.wacz` file to test and QA the result.
 
 
