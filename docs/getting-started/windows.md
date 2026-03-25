@@ -1,5 +1,7 @@
 # Getting Started – Windows
 
+> Note: You will need admin access to your computer before getting started.
+
 ## 1. Install GitBash
 
 - **What is it?** — GitBash is a Command Line Interface (CLI) Terminal that lets Windows users use Bash commands like Mac/Linux users. It gets installed as part of the GitForWindows package (below).
@@ -8,17 +10,21 @@
 ## 2. Install Docker
 
 - **What is it?** — Docker is a "containerization" software. It lets you make a little, fully contained computer within your computer. This is great because you can install more software within the container and it won't mess with other software. You can think of it as a temporary quarantine tent that we'll install and run browsertrix inside of.
-- **How do I install it?** — Follow the instructions at https://medium.com/@menukaishan5/install-docker-in-windows-complete-guide-for-the-beginners-b57db6639730. Once installed, start the Docker Desktop app—it needs to be running for the next steps.
+- **How do I install it?** — Follow the instructions at https://docs.docker.com/desktop/setup/install/windows-install/. 
+
+> Note: Once installed, open the Docker Desktop app to statrt it—it needs to be running for the next steps!!
 
 ## 3. Download the Code Repository
 
 1. Go to the main page of https://github.com/NYU-DataServices/uv-wacz-test and find the green "Code" dropdown button, then select "Download ZIP."
-2. Save the ZIP and extract it to your Desktop to make things easy in the next step.
+2. Save the ZIP and extract it to your Desktop. 
+
+    > NOTE: It *must* be on your Desktop for the next steps to work properly.
 
 ## 4. Access the Code using GitBash
 1. Find and open the GitBash app on your computer (It should have been installed in Step 1).
-2. Move into the code repository you extracted from the ZIP file using the command `cd ~/Desktop/uv-wacz-test-main`
-    (NOTE: It's also helpful to open that folder in another window so you can see the files/folders as you work.)
+2. Move into the code repository you extracted from the ZIP file using the command `cd ~/Desktop/uv-wacz-test-main` 
+    > (NOTE: It's also helpful to open that folder in another window so you can see the files/folders as you work.)
 
 ## 5. Use the Browsertrix Crawler
 1. Download the browsertrix container using the command `docker pull webrecorder/browsertrix-crawler`
