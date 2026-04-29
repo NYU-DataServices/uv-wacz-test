@@ -12,6 +12,7 @@
 - **What is it?** — Docker is a "containerization" software. It lets you make a little, fully contained computer within your computer. This is great because you can install more software within the container and it won't mess with other software. You can think of it as a temporary quarantine tent that we'll install and run browsertrix inside of.
 - **How do I install it?** — Follow the instructions at https://docs.docker.com/desktop/setup/install/windows-install/. 
 
+> Note: You need to run the installer by right clicking and selecting "Run as Administrator"
 > Note: Once installed, open the Docker Desktop app to statrt it—it needs to be running for the next steps!!
 
 ## 3. Download the Code Repository
