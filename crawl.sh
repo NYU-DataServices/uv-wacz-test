@@ -10,4 +10,4 @@ echo "archiving $1 to ./crawls/collections/$collection_name"
 echo ""
 
 mkdir -p crawls/collections/$collection_name && touch crawls/collections/$collection_name/.gitkeep
-docker run --rm -v ./crawls:/crawls/ -it webrecorder/browsertrix-crawler crawl --allowHashUrls --url $1 --generateWACZ --collection $collection_name
+docker run --rm v $(pwd)/crawls:/crawls/ -it webrecorder/browsertrix-crawler crawl --allowHashUrls --url $1 --generateWACZ --collection $collection_name
