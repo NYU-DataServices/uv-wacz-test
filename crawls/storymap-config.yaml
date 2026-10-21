@@ -1,0 +1,28 @@
+workers: 1
+generateWACZ: true
+
+# Custom behavior that scrolls the StoryMap's inner container
+# (the built-in autoscroll skips StoryMaps).
+customBehaviors:
+  - ./scroll.js
+behaviors:
+  - siteSpecific                 # custom behaviors run as site-specific behaviors
+  - autoplay
+  - autofetch
+behaviorTimeout: 1500            # long story + slow scrolling + image fetching: up to 25 minutes
+
+pageLoadTimeout: 180
+postLoadDelay: 10
+netIdleWait: 10
+
+# Software WebGL, so maps can render in the crawler's browser
+extraChromeArgs:
+  - "--enable-unsafe-swiftshader"
+
+# Evidence of what the crawler's browser actually saw
+screenshot:
+  - view
+  - fullPageFinal
+logging:
+  - stats
+  - jserrors
