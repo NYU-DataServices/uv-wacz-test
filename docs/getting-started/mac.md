@@ -1,3 +1,3 @@
-# Getting Started – Windows
+# Getting Started – Mac
 
 [TO DO]
