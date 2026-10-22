@@ -4,7 +4,7 @@ generateWACZ: true
 # Custom behavior that scrolls the StoryMap's inner container
 # (the built-in autoscroll skips StoryMaps).
 customBehaviors:
-  - ./scroll.js
+  - ./behaviors/storymap-scroll.js
 behaviors:
   - siteSpecific                 # custom behaviors run as site-specific behaviors
   - autoplay
